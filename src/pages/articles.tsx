@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { HeadFC, PageProps } from "gatsby";
 
-import { Layout } from "../components/template/layout";
-import Title from "../components/typography/Title";
+import { Layout } from "../components/atoms/template/layout";
+import Title from "../components/atoms/typography/Title";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
