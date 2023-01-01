@@ -1,5 +1,5 @@
 import * as React from "react";
-import Title from "../atoms/typography/Title";
+import Title from "components/atoms/typography/Title";
 
 const DescriptionCard = () => {
   return (

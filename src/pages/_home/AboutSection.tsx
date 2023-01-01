@@ -1,13 +1,13 @@
 import React, { FC } from "react";
 import { useTranslation } from "react-i18next";
 
-import Button from "../../components/atoms/template/Button";
-import Container from "../../components/atoms/template/Container";
-import DescriptionCard from "../../components/molecules/DescriptionCard";
+import Button from "components/atoms/template/Button";
+import Container from "components/atoms/template/Container";
+import DescriptionCard from "components/molecules/DescriptionCard";
 
-import GithubIcon from "../../assets/icons/github_icon.tsx";
-import TwitterIcon from "../../assets/icons/twitter_icon.tsx";
-import LinkedinIcon from "../../assets/icons/linkedin_icon.tsx";
+import GithubIcon from "assets/icons/github_icon";
+import TwitterIcon from "assets/icons/twitter_icon";
+import LinkedinIcon from "assets/icons/linkedin_icon";
 
 const AboutSection = () => {
   const { t } = useTranslation();

@@ -6,9 +6,6 @@ const config: GatsbyConfig = {
     title: `JK's blog`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
-  // If you use VSCode you can also use the GraphQL plugin
-  // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
   plugins: [
     {
@@ -33,6 +30,7 @@ const config: GatsbyConfig = {
         pages: path.join(__dirname, "src/pages"),
       },
     },
+    "gatsby-plugin-root-import",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
