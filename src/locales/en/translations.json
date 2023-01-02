@@ -1,4 +1,39 @@
 {
+  "index": {
+    "about": {
+      "title": "About me",
+      "description": "I’m a French product developer, based in Paris. I studied computer science, design & PM. I’ve worked at several startups, learning how to create useful products and features bringing value to users."
+    },
+    "last_articles": {
+      "title": "Last articles",
+      "cta": "View all articles",
+      "description": "I write about literature, tech, web3, personal development, in fact about anything that make me reflect."
+    },
+    "work": {
+      "title": "Work",
+      "description1": "During my five years at HETIC, a parisian tech school, I’ve worked:",
+      "description2": "• 8 months (two internships) as a <strong>Product Manager</strong> at Ouihelp and HostnFly",
+      "description3": "• 6-month internship + 1 year (apprenticeship) as a <strong>frontend engineer</strong> (React) at Matera (SaaS for property management).",
+      "description4": "Then did the <strong>X-HEC Entrepreneurs MSc</strong>, during which I co-organized the <strong>NFT Paris</strong> event at station F on Jan 22, and worked on several startup creation topics, and during which I made an exchange at <strong>UC Berkeley</strong>."
+    }
+  },
+  "articles": {
+    "links": {
+      "all": "View all",
+      "web3": "web3",
+      "health": "Health",
+      "literature": "Literature",
+      "pers_dev": "Personal Development"
+    }
+  },
+  "navbar": {
+    "logo": "🐺",
+    "title": "Jan-Kasper Jakubowski",
+    "links": {
+      "about": "About me",
+      "articles": "Articles"
+    }
+  },
   "socials": {
     "linkedin": "Linkedin",
     "twitter": "Twitter",
