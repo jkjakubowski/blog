@@ -1,7 +1,7 @@
 import * as React from "react";
 import { I18nextProvider } from "react-i18next";
 
-import i18next from "src/i18n/config.ts";
+import i18next from "src/i18n/config";
 
 import Navbar from "components/molecules/navbar/Navbar";
 
