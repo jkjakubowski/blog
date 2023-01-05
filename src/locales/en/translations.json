@@ -11,10 +11,7 @@
     },
     "work": {
       "title": "Work",
-      "description1": "During my five years at HETIC, a parisian tech school, I’ve worked:",
-      "description2": "• 8 months (two internships) as a <strong>Product Manager</strong> at Ouihelp and HostnFly",
-      "description3": "• 6-month internship + 1 year (apprenticeship) as a <strong>frontend engineer</strong> (React) at Matera (SaaS for property management).",
-      "description4": "Then did the <strong>X-HEC Entrepreneurs MSc</strong>, during which I co-organized the <strong>NFT Paris</strong> event at station F on Jan 22, and worked on several startup creation topics, and during which I made an exchange at <strong>UC Berkeley</strong>."
+      "description": "During my five years at HETIC, a parisian tech school, I’ve worked: <br /><br/> • 8 months (two internships) as a <strong>Product Manager</strong> at Ouihelp and HostnFly <br /><br />• 6-month internship + 1 year (apprenticeship) as a <strong>frontend engineer</strong> (React) at Matera (SaaS for property management).<br /><br />Then did the <strong>X-HEC Entrepreneurs MSc</strong>, during which I co-organized the <strong>NFT Paris</strong> event at station F on Jan 22, and worked on several startup creation topics, and during which I made an exchange at <strong>UC Berkeley</strong>."
     }
   },
   "articles": {

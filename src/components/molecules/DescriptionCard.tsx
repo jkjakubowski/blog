@@ -1,17 +1,33 @@
 import * as React from "react";
-import { useTranslation } from "react-i18next";
 
 import Title from "components/atoms/typography/Title";
+import { Trans } from "react-i18next";
 
-const DescriptionCard = () => {
-  const { t } = useTranslation();
+type DescriptionCardProps = {
+  title: string;
+  description: string;
+  color: string;
+  opacity: string;
+  children?: React.ReactNode;
+};
+
+const DescriptionCard: React.FC<DescriptionCardProps> = ({
+  title,
+  description,
+  color,
+  opacity,
+  children,
+}) => {
   return (
-    <div className="bg-purple bg-opacity-10 rounded-xl py-7 px-16 max-w-3xl">
+    <div
+      className={`bg-opacity-${opacity}  ${color}  rounded-xl py-7 px-20 max-w-3xl`}
+    >
       <div className="flex justify-center 	">
-        <Title>{t("index.about.title")}</Title>
+        <Title>{title}</Title>
       </div>
-      <div>
-        <p>{t("index.about.description")}</p>
+      <div className="mt-3">
+        <Trans i18nKey={description} />
+        {children && children}
       </div>
     </div>
   );
