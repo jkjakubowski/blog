@@ -18,7 +18,7 @@ const Socials = () => {
         {t("socials.linkedin")}
       </Button>
       <Button href="https://twitter.com/jkjkb6" type="twitter">
-        <TwitterIcon color="group-hover:stroke-cream stroke-dark_blue" />
+        <TwitterIcon color="group-hover:stroke-cream stroke-twitter_blue" />
         {t("socials.twitter")}
       </Button>
       <Button href="https://github.com/jkjakubowski" type="github">

@@ -18,7 +18,7 @@ const Button: React.FC<ButtonProps> = ({ type, children, href }) => {
       break;
     case "twitter":
       buttonClasses =
-        "bg-beige hover:bg-dark_blue text-dark_blue hover:text-cream border border-dark_blue duration-300 transition ease-out";
+        "bg-beige hover:bg-twitter_blue text-twitter_blue hover:text-cream border border-twitter_blue duration-300 transition ease-out";
       break;
     case "github":
       buttonClasses =
