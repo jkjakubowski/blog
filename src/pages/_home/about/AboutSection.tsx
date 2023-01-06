@@ -5,7 +5,7 @@ import Container from "components/atoms/template/Container";
 import DescriptionCard from "components/molecules/DescriptionCard";
 import Socials from "./Socials";
 
-const AboutSection = () => {
+const AboutSection: FC = () => {
   const { t } = useTranslation();
   return (
     <Container className="mt-10">

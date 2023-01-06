@@ -6,7 +6,7 @@ import GithubIcon from "assets/icons/github_icon";
 import TwitterIcon from "assets/icons/twitter_icon";
 import LinkedinIcon from "assets/icons/linkedin_icon";
 
-const Socials = () => {
+const Socials: FC = () => {
   const { t } = useTranslation();
   return (
     <div className="flex justify-center mt-10 space-x-8">

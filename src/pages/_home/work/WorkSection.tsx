@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 import Container from "components/atoms/template/Container";
 import DescriptionCard from "components/molecules/DescriptionCard";
 
-const WorkSection = () => {
+const WorkSection: FC = () => {
   const { t } = useTranslation();
   return (
     <Container className="mt-10">
