@@ -31,6 +31,8 @@ const config: GatsbyConfig = {
       },
     },
     "gatsby-plugin-root-import",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-netlify",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",

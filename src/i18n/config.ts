@@ -12,7 +12,7 @@ i18next.init({
   returnObjects: true,
   debug: process.env.NODE_ENV === "development",
   interpolation: {
-    escapeValue: true, // not needed for react!!
+    escapeValue: false, // not needed for react!!
   },
 });
 

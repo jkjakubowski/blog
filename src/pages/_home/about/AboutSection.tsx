@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import Container from "components/atoms/template/Container";
 import DescriptionCard from "components/molecules/DescriptionCard";
-import Socials from "./Socials";
+import Socials from "components/molecules/Socials";
 
 const AboutSection: FC = () => {
   const { t } = useTranslation();
