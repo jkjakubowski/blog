@@ -13,8 +13,7 @@ const AboutSection: FC = () => {
         <DescriptionCard
           title={`${t("index.about.title")}`}
           description={`${t("index.about.description")}`}
-          color="bg-purple"
-          opacity="20"
+          color="bg-purple/30"
         />
         <Socials />
       </div>

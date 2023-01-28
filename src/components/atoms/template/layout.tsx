@@ -14,6 +14,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
     <I18nextProvider i18n={i18n}>
       <>
         <Navbar />
+        <div className="h-20" />
         {children}
       </>
     </I18nextProvider>

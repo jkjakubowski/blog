@@ -12,8 +12,7 @@ const WorkSection: FC = () => {
         <DescriptionCard
           title={`${t("index.work.title")}`}
           description={`${t("index.work.description")}`}
-          color="bg-orange"
-          opacity="40"
+          color="bg-orange/50"
         />
       </div>
     </Container>

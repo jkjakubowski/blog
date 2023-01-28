@@ -7,7 +7,7 @@ type DescriptionCardProps = {
   title: string;
   description: string;
   color: string;
-  opacity: string;
+  opacity?: string;
   children?: React.ReactNode;
 };
 
@@ -15,13 +15,10 @@ const DescriptionCard: React.FC<DescriptionCardProps> = ({
   title,
   description,
   color,
-  opacity,
   children,
 }) => {
   return (
-    <div
-      className={`bg-opacity-${opacity}  ${color}  rounded-xl py-7 px-20 max-w-3xl`}
-    >
+    <div className={`${color} rounded-xl py-7 px-20 max-w-3xl`}>
       <div className="flex justify-center 	">
         <Title>{title}</Title>
       </div>
