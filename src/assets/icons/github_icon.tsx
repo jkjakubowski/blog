@@ -1,5 +1,5 @@
 import React from "react";
-const GithubIcon = ({ color }) => {
+const GithubIcon = ({ color }: IconProps) => {
   return (
     <svg
       width="25"
