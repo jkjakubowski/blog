@@ -9,7 +9,7 @@ import LinkedinIcon from "assets/icons/linkedin_icon";
 const Socials: FC = () => {
   const { t } = useTranslation();
   return (
-    <div className="flex justify-center mt-10 space-x-8">
+    <div className="hidden md:flex justify-center mt-10 space-x-8">
       <Button
         href="https://www.linkedin.com/in/jankasperjakubowski/"
         type="linkedin"

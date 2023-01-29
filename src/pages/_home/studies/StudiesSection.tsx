@@ -7,7 +7,7 @@ import DescriptionCard from "components/molecules/DescriptionCard";
 const StudiesSection: FC = () => {
   const { t } = useTranslation();
   return (
-    <Container className="mt-10">
+    <Container>
       <div className="flex flex-col">
         <DescriptionCard
           title={`${t("index.studies.title")}`}

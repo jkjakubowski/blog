@@ -8,7 +8,7 @@ import Socials from "components/molecules/Socials";
 const AboutSection: FC = () => {
   const { t } = useTranslation();
   return (
-    <Container className="mt-10">
+    <Container>
       <div className="flex flex-col">
         <DescriptionCard
           title={`${t("index.about.title")}`}
