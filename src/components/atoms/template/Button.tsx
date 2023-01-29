@@ -1,12 +1,16 @@
 import React from "react";
 
 type ButtonProps = {
-  type: string;
+  type?: string;
   href: string;
   children: React.ReactNode;
 };
 
-const Button: React.FC<ButtonProps> = ({ type, children, href }) => {
+const Button: React.FC<ButtonProps> = ({
+  type = "primary",
+  children,
+  href,
+}) => {
   let buttonClasses;
   switch (type) {
     case "primary":

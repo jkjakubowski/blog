@@ -10,6 +10,7 @@ module.exports = {
       current: "currentColor",
       purple: "#8075FF",
       dark_blue: "#101935",
+      blue: "#315DE7",
       twitter_blue: "#1DA1F2",
       beige: "#F8F7FF",
       cream: "#FFEEDD",

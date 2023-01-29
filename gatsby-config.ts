@@ -4,7 +4,8 @@ const path = require("path");
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `JK's blog`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.jankasper.space`,
+    favicon: "/src/assets/images/wolf.png",
   },
   graphqlTypegen: true,
   plugins: [
@@ -19,6 +20,12 @@ const config: GatsbyConfig = {
       options: {
         path: path.join(__dirname, "src/locales"),
         name: `locale`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        icon: "src/assets/images/wolf.png",
       },
     },
     {
@@ -39,7 +46,13 @@ const config: GatsbyConfig = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: `Jan-Kasper`,
+        short_name: `JKJ`,
+        start_url: `/`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
+        display: `standalone`,
+        icon: "src/images/wolf.png",
       },
     },
     "gatsby-plugin-mdx",

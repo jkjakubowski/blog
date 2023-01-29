@@ -19,10 +19,10 @@ const DescriptionCard: React.FC<DescriptionCardProps> = ({
 }) => {
   return (
     <div className={`${color} rounded-xl py-7 px-20 max-w-3xl`}>
-      <div className="flex justify-center 	">
+      <div className="flex justify-center">
         <Title>{title}</Title>
       </div>
-      <div className="mt-3">
+      <div className="mt-3 text-lg">
         <Trans i18nKey={description} />
         {children && children}
       </div>
