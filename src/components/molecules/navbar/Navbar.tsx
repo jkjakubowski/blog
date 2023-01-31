@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import { useTranslation } from "react-i18next";
 
+import { Link } from "gatsby";
 import Signature from "components/atoms/template/Signature";
 
 const Navbar = () => {

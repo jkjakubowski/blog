@@ -1,5 +1,8 @@
 import * as React from "react";
 
+import { Link } from "gatsby";
+import IconButton from "components/atoms/template/IconButton";
+
 import GithubIcon from "assets/icons/github_icon";
 import TwitterIcon from "assets/icons/twitter_icon";
 import LinkedinIcon from "assets/icons/linkedin_icon";
@@ -23,19 +26,36 @@ const MobileNavbar = () => {
     bottom-10 bg-dark_blue rounded-xl py-4 px-4"
     >
       <div className="flex gap-x-3">
-        <HomeIcon color="stroke-beige fill-none	" />
-        <ArticlesIcon color="fill-beige stroke-beige" />
+        <Link to="/">
+          <HomeIcon color="stroke-beige fill-none	" />
+        </Link>
+        <Link to="/articles">
+          <ArticlesIcon color="fill-beige stroke-beige" />
+        </Link>
       </div>
       <div className="w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
-        <SunIcon color="fill-beige" />
-        <TranslateIcon color="fill-beige" />
+        <IconButton>
+          <SunIcon color="fill-beige" />
+        </IconButton>
+
+        <IconButton>
+          <TranslateIcon color="fill-beige" />
+        </IconButton>
       </div>
       <div className="w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
-        <LinkedinIcon color="stroke-beige" />
-        <TwitterIcon color="stroke-beige" />
-        <GithubIcon color="stroke-beige" />
+        <IconButton href="https://www.linkedin.com/in/jankasperjakubowski/">
+          <LinkedinIcon color="stroke-beige" />
+        </IconButton>
+
+        <IconButton href="https://twitter.com/jkjkb6">
+          <TwitterIcon color="stroke-beige" />
+        </IconButton>
+
+        <IconButton href="https://github.com/jkjakubowski">
+          <GithubIcon color="stroke-beige" />
+        </IconButton>
       </div>
     </div>
   );
