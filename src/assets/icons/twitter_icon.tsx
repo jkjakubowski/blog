@@ -1,5 +1,5 @@
 import React from "react";
-const TwitterIcon = ({ color }) => {
+const TwitterIcon = ({ color }: IconProps) => {
   return (
     <svg
       width="25"

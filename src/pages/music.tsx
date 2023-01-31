@@ -7,7 +7,7 @@ import Title from "components/atoms/typography/Title";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <Title>Romain</Title>
+      <Title>Toto</Title>
     </Layout>
   );
 };
