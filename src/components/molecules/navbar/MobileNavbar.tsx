@@ -27,7 +27,7 @@ const MobileNavbar = () => {
     >
       <div className="flex gap-x-3">
         <Link to="/">
-          <HomeIcon color="stroke-beige fill-none	" />
+          <HomeIcon color="stroke-beige fill-beige	" />
         </Link>
         <Link to="/articles">
           <ArticlesIcon color="fill-beige stroke-beige" />
