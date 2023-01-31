@@ -22,7 +22,7 @@ const MobileNavbar = () => {
     right-1/2 
     flex 
     justify-between  
-    align-center
+    items-center
     bottom-10 bg-dark_blue rounded-xl py-4 px-4"
     >
       <div className="flex gap-x-3">
