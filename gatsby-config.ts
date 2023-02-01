@@ -1,5 +1,6 @@
 import type { GatsbyConfig } from "gatsby";
 const path = require("path");
+require("dotenv").config();
 
 const config: GatsbyConfig = {
   siteMetadata: {
@@ -54,6 +55,15 @@ const config: GatsbyConfig = {
         icon: "src/assets/images/wolf.png",
       },
     },
+    {
+      resolve: "gatsby-source-notion-api",
+      options: {
+        token: process.env.GATSBY_NOTION_API_TOKEN,
+        databaseId: process.env.GATSBY_NOTION_DATABASES,
+        propsToFrontmatter: true,
+        lowerTitleLevel: true,
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
@@ -63,6 +73,7 @@ const config: GatsbyConfig = {
         name: "images",
         path: "./src/images/",
       },
+
       __key: "images",
     },
   ],
