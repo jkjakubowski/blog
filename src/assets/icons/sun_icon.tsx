@@ -1,9 +1,9 @@
 import React from "react";
-const SunIcon = ({ color }: IconProps) => {
+const SunIcon = ({ color, size }: IconProps) => {
   return (
     <svg
-      width="25"
-      height="25"
+      width={size}
+      height={size}
       viewBox="0 0 659 659"
       className={`${color}`}
       xmlns="http://www.w3.org/2000/svg"

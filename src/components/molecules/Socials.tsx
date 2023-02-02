@@ -14,15 +14,21 @@ const Socials: FC = () => {
         href="https://www.linkedin.com/in/jankasperjakubowski/"
         type="linkedin"
       >
-        <LinkedinIcon color="group-hover:stroke-cream stroke-dark_blue" />
+        <LinkedinIcon
+          size="25"
+          color="group-hover:stroke-cream stroke-dark_blue"
+        />
         {t("socials.linkedin")}
       </Button>
       <Button href="https://twitter.com/jkjkb6" type="twitter">
-        <TwitterIcon color="group-hover:stroke-cream stroke-twitter_blue" />
+        <TwitterIcon
+          size="25"
+          color="group-hover:stroke-cream stroke-twitter_blue"
+        />
         {t("socials.twitter")}
       </Button>
       <Button href="https://github.com/jkjakubowski" type="github">
-        <GithubIcon color="group-hover:stroke-beige stroke-purple" />
+        <GithubIcon size="25" color="group-hover:stroke-beige stroke-purple" />
         {t("socials.github")}
       </Button>
     </div>

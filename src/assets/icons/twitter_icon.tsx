@@ -1,9 +1,9 @@
 import React from "react";
-const TwitterIcon = ({ color }: IconProps) => {
+const TwitterIcon = ({ color, size }: IconProps) => {
   return (
     <svg
-      width="25"
-      height="25"
+      width={size}
+      height={size}
       viewBox="0 0 60 60"
       fill="none"
       className={`${color}`}

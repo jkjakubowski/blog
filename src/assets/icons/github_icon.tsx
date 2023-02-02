@@ -1,9 +1,9 @@
 import React from "react";
-const GithubIcon = ({ color }: IconProps) => {
+const GithubIcon = ({ color, size }: IconProps) => {
   return (
     <svg
-      width="25"
-      height="25"
+      width={size}
+      height={size}
       viewBox="0 0 60 60"
       className={`${color} `}
       stroke-width="2"

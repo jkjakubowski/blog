@@ -1,9 +1,9 @@
 import React from "react";
-const HomeIcon = ({ color }: IconProps) => {
+const HomeIcon = ({ color, size }: IconProps) => {
   return (
     <svg
-      width="25"
-      height="25"
+      width={size}
+      height={size}
       viewBox="0 0 800 865"
       className={`${color}`}
       xmlns="http://www.w3.org/2000/svg"

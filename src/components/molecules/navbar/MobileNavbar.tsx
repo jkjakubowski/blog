@@ -18,7 +18,7 @@ const MobileNavbar = () => {
     fixed 
     text-center	
     translate-x-2/4 
-    w-[calc(100%-100px)] 
+    w-[calc(100%-20px)] 
     right-1/2 
     flex 
     justify-between  
@@ -27,34 +27,34 @@ const MobileNavbar = () => {
     >
       <div className="flex gap-x-3">
         <Link to="/">
-          <HomeIcon color="stroke-beige fill-beige	" />
+          <HomeIcon size="35" color="stroke-beige fill-beige	" />
         </Link>
         <Link to="/articles">
-          <ArticlesIcon color="fill-beige stroke-beige" />
+          <ArticlesIcon size="35" color="fill-beige stroke-beige" />
         </Link>
       </div>
       <div className="w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
         <IconButton>
-          <SunIcon color="fill-beige" />
+          <SunIcon size="35" color="fill-beige" />
         </IconButton>
 
         <IconButton>
-          <TranslateIcon color="fill-beige" />
+          <TranslateIcon size="35" color="fill-beige" />
         </IconButton>
       </div>
       <div className="w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
         <IconButton href="https://www.linkedin.com/in/jankasperjakubowski/">
-          <LinkedinIcon color="stroke-beige" />
+          <LinkedinIcon size="35" color="stroke-beige" />
         </IconButton>
 
         <IconButton href="https://twitter.com/jkjkb6">
-          <TwitterIcon color="stroke-beige" />
+          <TwitterIcon size="35" color="stroke-beige" />
         </IconButton>
 
         <IconButton href="https://github.com/jkjakubowski">
-          <GithubIcon color="stroke-beige" />
+          <GithubIcon size="35" color="stroke-beige" />
         </IconButton>
       </div>
     </div>
