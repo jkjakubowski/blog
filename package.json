@@ -18,7 +18,7 @@
   "dependencies": {
     "@mdx-js/react": "^2.2.1",
     "eslint": "^7.32.0",
-    "gatsby": "^5.3.2",
+    "gatsby": "^5.5.0",
     "gatsby-cli": "^5.3.1",
     "gatsby-plugin-google-analytics": "^5.3.0",
     "gatsby-plugin-image": "^3.3.2",
