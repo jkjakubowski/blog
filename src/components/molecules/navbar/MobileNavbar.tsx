@@ -9,6 +9,7 @@ import LinkedinIcon from "assets/icons/linkedin_icon";
 import HomeIcon from "assets/icons/home_icon";
 import ArticlesIcon from "assets/icons/articles_icon";
 import SunIcon from "assets/icons/sun_icon";
+import MoonIcon from "assets/icons/moon_icon";
 import TranslateIcon from "assets/icons/translate_icon";
 
 const MobileNavbar = () => {
@@ -33,17 +34,17 @@ const MobileNavbar = () => {
           <ArticlesIcon size="35" color="fill-beige stroke-beige" />
         </Link>
       </div>
-      <div className="w-px bg-beige/30 h-7" />
+      <div className="hidden min-[380px]:block w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
         <IconButton>
-          <SunIcon size="35" color="fill-beige" />
+          <MoonIcon size="35" color="fill-beige" />
         </IconButton>
 
         <IconButton>
           <TranslateIcon size="35" color="fill-beige" />
         </IconButton>
       </div>
-      <div className="w-px bg-beige/30 h-7" />
+      <div className="hidden min-[380px]:block w-px bg-beige/30 h-7" />
       <div className="flex gap-x-3">
         <IconButton href="https://www.linkedin.com/in/jankasperjakubowski/">
           <LinkedinIcon size="35" color="stroke-beige" />
